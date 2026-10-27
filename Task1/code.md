@@ -31,10 +31,13 @@ Output results and terminate execution.&nbsp;
 ## Python Source Code
 
 student_name = input("Enter student name: ")&nbsp;
+
 python_marks = float(input("Enter Python marks: "))&nbsp;
+
 maths_marks = float(input("Enter Maths marks: "))&nbsp;
 
 physics_marks = float(input("Enter Physics marks: "))&nbsp;
+
 english_marks = float(input("Enter English marks: "))&nbsp;
 
 c_programming_marks = float(input("Enter C Programming marks: "))&nbsp;
