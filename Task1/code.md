@@ -116,3 +116,4 @@ Priya Singh is not eligible for the scholarship
     E -- False --> G[Print: student_name is not eligible for the scholarship]
     F --> H([Stop])
     G --> H
+```
