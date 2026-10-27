@@ -108,6 +108,7 @@ Priya Singh is not eligible for the scholarship
  ## Flowchart
 
 ```mermaid
+graph TD
     A([Start]) --> B[Input student_name, subject marks, attendance, family_income]
     B --> C[Compute total_marks = Sum of 5 subject marks]
     C --> D[Compute marks_percentage = total_marks / 500 * 100]
