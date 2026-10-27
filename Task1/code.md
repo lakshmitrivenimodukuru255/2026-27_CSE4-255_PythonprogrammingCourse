@@ -2,6 +2,7 @@
    To design, develop, and document a programmatic solution for evaluating student scholarship applications. The system must process academic records, attendance metrics, and financial status against predetermined institutional thresholds to render a conclusive eligibility decision.
 &nbsp;
 
+
 ## Algorithm
 Start&nbsp;
 
@@ -25,6 +26,7 @@ Branch B (False): Reject applicant qualification due to unmet criteria.&nbsp;
   
 Output results and terminate execution.&nbsp;
 &nbsp;
+
 
 ## Python Source Code
 
@@ -51,18 +53,17 @@ total_marks = (
 
 marks_percentage = (total_marks / 500) * 100&nbsp;
 
-
 if marks_percentage >= 60 and attendance >= 75 and family_income < 100000:&nbsp;
     print(f"\nResult: {student_name} is eligible for the scholarship")
 else:&nbsp;
     print(f"\nResult: {student_name} is not eligible for the scholarship")
-
 &nbsp;
+
     
 ## Sample Test Cases
-   
-Case 1:
-Sample Input &nbsp;
+1:
+Sample Input
+&nbsp;
 
 Enter student name: Rahul Verma&nbsp;
 
@@ -83,21 +84,26 @@ Enter family income: 75000&nbsp;
 Sample Output 
 &nbsp;
 
-Rahul Verma is eligible for the scholarship&nbsp;
+Rahul Verma is eligible for the scholarship &nbsp;
 
-
-Case 2:
-
+2.
 Sample Input
 &nbsp;
 
-Enter student name: Priya Singh&nbsp;
+Enter student name: Priya Singh &nbsp;
+
 Enter Python marks: 80&nbsp;
+
 Enter Maths marks: 85&nbsp;
+
 Enter Physics marks: 75&nbsp;
+
 Enter English marks: 90&nbsp;
+
 Enter C Programming marks: 82&nbsp;
+
 Enter attendance percentage (%): 68&nbsp;
+
 Enter family income: 60000&nbsp;
 
 Sample Output
