@@ -22,9 +22,8 @@ Section: 4
 
 ### Repository Contents:
 - Python source code (10 programs)
-- Problem Statement, Objectives, Assumptions, Algorithm, Flowchart, Pseudocode, Test Cases, Conclusion (inside each file as comments)
-- Output Screenshots
-- Consolidated PDF Report
+- md file contents:
+- Problem Statement,Algorithm,Flowchart,Python_source_code,Sample_Input,Sample_Output
 - README File
 
 This repository is submitted as part of  B_Tech 1st Year  Python Programming ABL Assignment for 10 Marks.
