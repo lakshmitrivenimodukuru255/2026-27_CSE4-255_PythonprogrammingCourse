@@ -26,14 +26,35 @@ Branch B (False): Reject applicant qualification due to unmet criteria.&nbsp;
   
 Output results and terminate execution.&nbsp;
 &nbsp;
+## Python source code
+```
+Student_name = input("Enter student name: ")
 
+Python_marks = float(input("Enter Python marks: "))
+Maths_marks = float(input("Enter Maths marks: "))
+Physics_marks = float(input("Enter Physics marks: "))
+English_marks = float(input("Enter English marks: "))
+C_programming_marks = float(input("Enter C Programming marks: "))
 
+Attendance = float(input("Enter attendance %: "))
+Family_income = float(input("Enter family income: "))
+
+Total_marks = (
+    Python_marks
+    + Maths_marks
+    + Physics_marks
+    + English_marks
+    + C_programming_marks
+)
+Marks_percentage = Total_marks / 500 * 100
+
+if Marks_percentage >= 60 and Attendance >= 75 and Family_income < 100000:
+    print(Student_name, "is eligible for scholarship")
+else:
+    print(Student_name, "is not eligible for the scholarship")
+```
     
-## Sample Test Cases
-1:
-Sample Input
-&nbsp;
-
+## 1.Sample Input
 Enter student name: Rahul Verma&nbsp;
 
 Enter Python marks: 75&nbsp;
@@ -50,15 +71,10 @@ Enter attendance percentage (%): 85&nbsp;
 
 Enter family income: 75000&nbsp;
 
-Sample Output 
-&nbsp;
-
+## 1.Sample Output 
 Rahul Verma is eligible for the scholarship &nbsp;
 
-2.
-Sample Input
-&nbsp;
-
+## 2.Sample Input
 Enter student name: Priya Singh &nbsp;
 
 Enter Python marks: 80&nbsp;
@@ -75,9 +91,7 @@ Enter attendance percentage (%): 68&nbsp;
 
 Enter family income: 60000&nbsp;
 
-Sample Output
-&nbsp;
-
+## 2.Sample Output
 Priya Singh is not eligible for the scholarship
 
  ## Flowchart
