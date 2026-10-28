@@ -28,40 +28,6 @@ Output results and terminate execution.&nbsp;
 &nbsp;
 
 
-## Python Source Code
-
-student_name = input("Enter student name: ")&nbsp;
-
-python_marks = float(input("Enter Python marks: "))&nbsp;
-
-maths_marks = float(input("Enter Maths marks: "))&nbsp;
-
-physics_marks = float(input("Enter Physics marks: "))&nbsp;
-
-english_marks = float(input("Enter English marks: "))&nbsp;
-
-c_programming_marks = float(input("Enter C Programming marks: "))&nbsp;
-
-attendance = float(input("Enter attendance percentage (%): "))&nbsp;
-
-family_income = float(input("Enter family income: "))&nbsp;
-
-total_marks = (
-    python_marks 
-    + maths_marks 
-    + physics_marks 
-    + english_marks 
-    + c_programming_marks
-)&nbsp;
-
-marks_percentage = (total_marks / 500) * 100&nbsp;
-
-if marks_percentage >= 60 and attendance >= 75 and family_income < 100000:&nbsp;
-    print(f"\nResult: {student_name} is eligible for the scholarship")
-else:&nbsp;
-    print(f"\nResult: {student_name} is not eligible for the scholarship")
-&nbsp;
-
     
 ## Sample Test Cases
 1:
