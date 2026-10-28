@@ -89,8 +89,7 @@ Enter your Maths marks: 30
 Enter your Physics marks: 78
 
 Enter your Chemistry marks: 65
-
-## 6. Sample Output
+##  Sample Output
 
 Math Final: 35
 
