@@ -66,25 +66,32 @@ else:
     print("Status: Shortage! Revenue is missing by: Rs.", difference)
 
 ## Sample Input & Output
-A.Sample Input:&nbsp;
+```A.Sample Input:&nbsp;
 Number of adults traveled: 3
 Number of children traveled: 2
 Total actual money collected: 700
 
-A.Sample Output:PlaintextTicket Prices -- Adult: Rs.200 | Child: Rs.50
+A.Sample Output:
+Ticket Prices -- Adult: Rs.200 | Child: Rs.50
 Enter number of adults traveled: 3
 Enter number of children traveled: 2
 Enter total actual money collected (Rs.): 700
 Total Expected Revenue: Rs. 700
 Total Actual Collected: Rs. 700.0
 Status: Perfect! Revenue matches completely (No difference).
-Scenario B: Extra Money CollectedSample Input:Number of adults traveled: 2Number of children traveled: 1Total actual money collected: 500 (Expected: $2 \times 200 + 1 \times 50 = 450$)Sample Output:PlaintextTicket Prices -- Adult: Rs.200 | Child: Rs.50
+
+B.Sample Input:Number of adults traveled: 2
+Number of children traveled: 1
+Total actual money collected: 500
+
+B.Sample OutputTicket Prices -- Adult: Rs.200 | Child: Rs.50
 Enter number of adults traveled: 2
 Enter number of children traveled: 1
 Enter total actual money collected (Rs.): 500
 Total Expected Revenue: Rs. 450
 Total Actual Collected: Rs. 500.0
 Status: Extra money collected by: Rs. 50.0
+```
 
 ## Flowchart
 ```mermaid
