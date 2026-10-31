@@ -124,7 +124,7 @@ Result: Password rejected. Please fix the errors above.
 2.Sample Input:
 Secur3Pass!&nbsp;
 
-1.Sample Output:
+2.Sample Output:
 ```
 Success: Your password is secure and meets all rules!
 ```
