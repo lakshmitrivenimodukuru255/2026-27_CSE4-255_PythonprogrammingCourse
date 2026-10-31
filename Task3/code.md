@@ -39,7 +39,7 @@ Write a program to manage and audit ticket collections for an event or transport
 17.End
 
 ## Python Source Code
-
+```
 adult_fare = 200
 child_fare = 50
 
@@ -64,6 +64,8 @@ elif difference > 0:
     print("Status: Extra money collected by: Rs.", difference)
 else:
     print("Status: Shortage! Revenue is missing by: Rs.", difference)
+
+```
 
 ## Sample Input & Output
 ```A.Sample Input:&nbsp;
