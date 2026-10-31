@@ -119,7 +119,9 @@ else:
     print("Ranking canceled due to invalid team size(s). Please restart.")
 ```
 ## 5. Sample Input & Output
-Scenario A: Standard Win / LossSample Input:PlaintextEnter details for Team 1:
+ A:Sample Input
+ 
+Enter details for Team 1:
 Team Name: CodeCrusaders
 Number of members (Allowed: 2 to 4): 3
 Round 1 Score: 45
@@ -136,7 +138,11 @@ CodeCrusaders Total Score: 95
 BugHunters Total Score: 70
 1st Place: CodeCrusaders
 2nd Place: BugHunters
-Scenario B: Tie-Breaker Triggered (Round 2 Winner)Sample Input:PlaintextEnter details for Team 1:
+
+
+B: Sample Input
+
+Enter details for Team 1:
 Team Name: Alpha
 Number of members (Allowed: 2 to 4): 4
 Round 1 Score: 40
