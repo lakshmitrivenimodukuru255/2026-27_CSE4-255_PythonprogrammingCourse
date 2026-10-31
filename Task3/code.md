@@ -66,8 +66,12 @@ else:
     print("Status: Shortage! Revenue is missing by: Rs.", difference)
 
 ## Sample Input & Output
-A: Sample Input:&nbsp;
-Number of adults traveled: 3Number of children traveled: 2Total actual money collected: 700 (Expected: $3 \times 200 + 2 \times 50 = 600 + 100 = 700$)Sample Output:PlaintextTicket Prices -- Adult: Rs.200 | Child: Rs.50
+A.Sample Input:&nbsp;
+Number of adults traveled: 3
+Number of children traveled: 2
+Total actual money collected: 700
+
+A.Sample Output:PlaintextTicket Prices -- Adult: Rs.200 | Child: Rs.50
 Enter number of adults traveled: 3
 Enter number of children traveled: 2
 Enter total actual money collected (Rs.): 700
